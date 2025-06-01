@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Warga Berpulang - RW 07</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+
+  <marquee behavior="scroll" direction="left" style="background-color: white; color: pink; font-weight: bold; padding: 10px;">
+    SELAMAT DATANG DI WEBSITE RW 07 BOJONG GEDE. JIKA ADA KEPERLUAN LEBIH LANJUT, SILAHKAN HUBUNGI PENGURUS KAMI DI MENU KONTAK.
+  </marquee>
+
+  <header>
+    <h1>Data Kematian RW 07</h1>
+    <h1>BOJONG GEDE</h1>
+    <p>Mengenang dan menghormati mereka yang telah meninggalkan kita dengan damai dan cinta.</p>
+    <img src="gambar/opening.jpg" alt="Cover Opening" class="responsive-image" />
+  </header>
+
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#data">Data</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="profil">
+    <h2>Profil RW 07</h2>
+    <p class="intro">
+      Selamat datang di website RW 07. RW 07 merupakan wilayah yang menjunjung tinggi nilai kekeluargaan dan saling peduli. Website ini bertujuan untuk mencatat dan mengenang warga yang telah meninggal dunia, sebagai bentuk penghormatan sekaligus dokumentasi yang transparan.
+    </p>
+  </section>
+
+  <section id="pengurus">
+    <h2>Struktur Kepengurusan RW 07</h2>
+    <div class="accordion-container">
+      <div class="accordion-item">
+        <button class="accordion-header">👤 Ketua RW</button>
+        <div class="accordion-body">
+          <p>H. Dedi Supriyadi</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">📝 Sekretaris</button>
+        <div class="accordion-body">
+          <p>Siti Rahmawati</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">💰 Bendahara</button>
+        <div class="accordion-body">
+          <p>Ujang Wahyudin</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">🔒 Seksi Keamanan</button>
+        <div class="accordion-body">
+          <p>Joko Prabowo</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">🤝 Seksi Sosial</button>
+        <div class="accordion-body">
+          <p>Yanti Permata</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-header">🧹 Seksi Kebersihan</button>
+        <div class="accordion-body">
+          <p>Bayu Firmansyah</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="data">
+    <h2>Data Kematian</h2>
+    <div class="filter-group">
+      <input type="text" id="searchBox" placeholder="Cari nama atau alamat..." />
+      <select id="causeFilter">
+        <option value="all">Semua Penyebab</option>
+        <option value="Jantung">Jantung</option>
+        <option value="Stroke">Stroke</option>
+        <option value="Kecelakaan">Kecelakaan</option>
+        <option value="Kanker">Kanker</option>
+      </select>
+    </div>
+
+    <table id="deathTable">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Lahir</th>
+          <th>Wafat</th>
+          <th>Alamat</th>
+          <th>Penyebab</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Arya Bin Asep</td><td>1 Maret 1994</td><td>13 November 2024</td><td>Jl. Merpati No. 06 RT 03</td><td>Stroke</td></tr>
+        <tr><td>Komariah Binti Sapardi</td><td>20 Februari 1961</td><td>27 November 2024</td><td>Jl. Serangkai No. 6 RT 08</td><td>Jantung</td></tr>
+        <tr><td>Agus Bin Trisno</td><td>30 Agustus 1997</td><td>4 Desember 2024</td><td>Jl. Anggrek No. 5 RT 04</td><td>Kanker</td></tr>
+        <tr><td>Suparja Bin Haryanta</td><td>19 Mei 1952</td><td>2 Januari 2025</td><td>Jl. Seroja No. 2 RT 02</td><td>Stroke</td></tr>
+        <tr><td>Jaya Bin Kamaludin</td><td>23 April 1971</td><td>14 Februari 2025</td><td>Jl. Mawar No. 9 RT 05</td><td>Jantung</td></tr>
+        <tr><td>Yanti Bin Haryanta</td><td>8 Juni 1967</td><td>10 April 2025</td><td>Jl. Seroja No. 2 RT 02</td><td>Kanker</td></tr>
+        <tr><td>Minar Binti Wandi</td><td>21 April 1988</td><td>16 April 2025</td><td>Jl. Mawar No. 10 RT 11</td><td>Kecelakaan</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak Pengurus</h2>
+    <p class="intro">
+      Jika ada data yang perlu diperbarui atau ingin menyampaikan pesan, hubungi pengurus RW 07 di: <br />
+      <strong>+62 813-2163-9063</strong>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 RW 07 - Terima kasih telah mengenang bersama kami. (Sponsored by X3)
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    // Scroll animation
+    const revealSections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    }, { threshold: 0.2 });
+    revealSections.forEach(section => observer.observe(section));
+
+    // Filtering
+    const searchBox = document.getElementById("searchBox");
+    const causeFilter = document.getElementById("causeFilter");
+    const rows = document.querySelectorAll("#deathTable tbody tr");
+
+    function filterTable() {
+      const query = searchBox.value.toLowerCase();
+      const cause = causeFilter.value;
+
+      rows.forEach(row => {
+        const rowText = row.textContent.toLowerCase();
+        const rowCause = row.cells[4].textContent;
+        const matchesQuery = rowText.includes(query);
+        const matchesCause = cause === "all" || rowCause === cause;
+
+        row.style.display = matchesQuery && matchesCause ? "" : "none";
+      });
+    }
+
+    searchBox.addEventListener("input", filterTable);
+    causeFilter.addEventListener("change", filterTable);
+
+    // Accordion
+    const headers = document.querySelectorAll(".accordion-header");
+
+    headers.forEach(header => {
+      header.addEventListener("click", () => {
+        const body = header.nextElementSibling;
+        const isActive = header.classList.contains("active");
+
+        document.querySelectorAll(".accordion-header").forEach(h => h.classList.remove("active"));
+        document.querySelectorAll(".accordion-body").forEach(b => {
+          b.style.maxHeight = null;
+          b.style.paddingTop = "0";
+          b.style.paddingBottom = "0";
+        });
+
+        if (!isActive) {
+          header.classList.add("active");
+          body.style.maxHeight = body.scrollHeight + "px";
+          body.style.paddingTop = "14px";
+          body.style.paddingBottom = "14px";
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
